@@ -13,6 +13,7 @@ interface RequestHandlerInterface
 {
     /**
      * Handle the request and return a response.
+     * @return ResponseInterface
      */
-    public function handle(ServerRequestInterface $request): ResponseInterface;
+    public function handle(ServerRequestInterface $request);
 }
